@@ -1,0 +1,48 @@
+/* Full-screen background with gradient */
+.bg-gradient {
+    background: linear-gradient(135deg, #3a8dfd, #1b65c3);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Centering container */
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Glassmorphic form styling */
+.glass-form {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Input and button styling */
+.form-control, .btn-primary {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form title image */
+.glass-form img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Links */
+.text-decoration-none {
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.text-decoration-none:hover {
+    color: #cce0ff;
+}
